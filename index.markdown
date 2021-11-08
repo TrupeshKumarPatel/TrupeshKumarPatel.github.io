@@ -2,5 +2,7 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
+#<!-- layout: home -->
+#<!-- pdf_local: "/files/Trupesh_Resume.pdf" -->
 ---
+{% pdf "/files/Trupesh_Resume.pdf" no_link %}
