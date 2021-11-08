@@ -3,6 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 #<!-- layout: home -->
-#<!-- pdf_local: "/files/Trupesh_Resume.pdf" -->
+pdf_local: "/files/Trupesh_Resume.pdf"
 ---
-{% pdf "/files/Trupesh_Resume.pdf" no_link %}
+{% pdf {{ page.pdf_local }} no_link %}
