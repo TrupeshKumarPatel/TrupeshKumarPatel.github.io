@@ -5,4 +5,4 @@
 layout: home
 pdf_file: "/files/Trupesh_Resume.pdf"
 ---
-{% pdf {{ page.pdf_file }} no_link%}
+{% pdf {{ page.pdf_file }} no_link %}

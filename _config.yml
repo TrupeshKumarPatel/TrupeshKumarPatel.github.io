@@ -1,45 +1,115 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# ********************** Site Configuration **********************
+title:         Trupesh Patel
 
-title: Trupesh Patel
-email: pateltrupesh27@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-minima:
-  skin: dark
-  date_format: "%b %-d, %Y"
+lang:          en
 
-  # generate social links in footer
-  social_links:
-    # twitter_username: jekyllrb
-    github_username:  trupeshkumarpatel
+author:
+     name:     Trupesh Patel
+     email:    <pateltrupesh27@gmail.com>
+     social:
+          linkedin: trupeshkumarpatel
+          github:   trupeshkumarpatel
+          email:    pateltrupesh27@gmail.com
+
+description:   >- # this means to ignore newlines until "baseurl:"
+     Ph.D. Student @The University of Alabama
+
+tagline:       |
+     Ph.D. Student @The University of Alabama
+
+baseurl:       "" # the subpath of your site, e.g. /blog
+url:           "https://trupeshkumarpatel.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+
+# # generate social links in footer
+# social_links:
+# # twitter_username: jekyllrb
+# github_username:  trupeshkumarpatel
 
 # Build settings
-theme: minima
+# theme:         jekyll-theme-hydejack
+remote_theme: hydecorp/hydejack@v9.1.4
 plugins:
-  - jekyll-feed
-  - jekyll-pdf-embed
+     - jekyll-default-layout
+     - jekyll-feed
+     - jekyll-pdf-embed
+     - jekyll-optional-front-matter
+     - jekyll-paginate
+     - jekyll-readme-index
+     - jekyll-redirect-from
+     - jekyll-relative-links
+     - jekyll-seo-tag
+     - jekyll-sitemap
+     - jekyll-titles-from-headings
+     - jekyll-include-cache
+     - jekyll-last-modified-at
+     - jemoji
+
+google_fonts:          Roboto+Slab:700|Noto+Sans:400,400i,700,700i
+font:                  Noto Sans, Helvetica, Arial, sans-serif
+font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
+font-code:             ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+
+hydejack:
+     post_addons:         [about, newsletter, related, random, comments]
+     project_addons:      [about, newsletter, other, comments]
+
+     no_mark_external:       false
+     no_push_state:          false
+     no_drawer:              false
+     no_navbar:              false
+     no_search:              false
+     no_inline_css:          false
+     no_page_style:          false
+     no_break_layout:        true
+     no_toc:                 false
+     no_third_column:        false
+     no_large_headings:      false
+     no_structured_data:     false
+     no_theme_color:         false
+     no_breadcrumbs:         false
+
+     use_lsi:                true
+     cookies_banner:         true
+     advertise:              true
+     hide_dates:             false
+     hide_last_modified:     false
+
+     dark_mode:
+          always:            false
+          dynamic:           true
+          sunrise:           6
+          sunset:            18
+          icon:              true
+
+     offline:
+          enabled:           false
+          cache_version:     1
+          precache_assets:
+               - /assets/img/swipe.svg
+
+optional_front_matter:
+     remove_originals:   true
+
+readme_index:
+     remove_originals:   true
+     with_frontmatter:   true
+
+relative_links:
+     collections:        true
+
+titles_from_headings:
+     strip_title:        true
+     collections:        true
+
+compress_html:
+     comments:           ["<!-- ", " -->"]
+     clippings:          all
+     endings:            all
+     ignore:
+     envs:               [development]
+
+sass:
+     style:              compressed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
