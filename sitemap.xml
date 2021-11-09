@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/jekyll/update/2021/10/30/welcome-to-jekyll.html</loc>
+<lastmod>2021-10-30T04:59:19-05:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/about/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/files/Trupesh_Resume.pdf</loc>
+<lastmod>2021-11-09T14:28:47-06:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/googlea472309c6ad35324.html</loc>
+<lastmod>2021-11-09T17:15:02-06:00</lastmod>
+</url>
+</urlset>
