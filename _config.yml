@@ -1,18 +1,25 @@
 # ********************** Site Configuration **********************
-title:         Trupesh Patel
+title:              Trupesh Patel
 
-lang:          en
-
+lang:               en
+copyright:          © 2021 Trupesh Patel. All free rights reserved.
+# accent_image:       /assets/img/sidebar-bg.jpg
+accent_image:       none
+accent_color:       rgb(79,177,186)
+theme_color:        rgb(0,55,71)
 author:
      name:     Trupesh Patel
-     email:    <pateltrupesh27@gmail.com>
+     email:    pateltrupesh27@gmail.com
+     linkedin: trupeshkumarpatel
+     github:   trupeshkumarpatel
      social:
-          linkedin: trupeshkumarpatel
-          github:   trupeshkumarpatel
-          email:    pateltrupesh27@gmail.com
+          googlescholar: rIGWIs8AAAAJ
+          linkedin:      trupeshkumarpatel
+          github:        trupeshkumarpatel
+          email:         pateltrupesh27@gmail.com
 
 description:   >- # this means to ignore newlines until "baseurl:"
-     Ph.D. Student @The University of Alabama
+     This is personal website of Trupesh Patel - Ph.D. Student in Computer Science at The University of Alabama
 
 tagline:       |
      Ph.D. Student @The University of Alabama
@@ -21,9 +28,10 @@ baseurl:       "" # the subpath of your site, e.g. /blog
 url:           "https://trupeshkumarpatel.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # # generate social links in footer
-# social_links:
+social_links:
 # # twitter_username: jekyllrb
-# github_username:  trupeshkumarpatel
+     github_username:  trupeshkumarpatel
+     linkedin_username: trupeshkumarpatel
 
 # Build settings
 # theme:         jekyll-theme-hydejack
@@ -70,7 +78,7 @@ hydejack:
 
      use_lsi:                true
      cookies_banner:         true
-     advertise:              true
+     advertise:              false
      hide_dates:             false
      hide_last_modified:     false
 
@@ -100,6 +108,13 @@ relative_links:
 titles_from_headings:
      strip_title:        true
      collections:        true
+
+# kramdown:
+#      footnote_backlink:   '&#x21a9;&#xfe0e;'
+#      math_engine:         mathjax
+#      math_engine_opts:
+#      preview:           true
+#      preview_as_code:   true
 
 compress_html:
      comments:           ["<!-- ", " -->"]

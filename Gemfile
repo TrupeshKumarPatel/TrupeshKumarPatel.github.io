@@ -17,16 +17,28 @@ gem 'jekyll-theme-hydejack'
 gem "github-pages", "~> 219", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
-  gem "jekyll-pdf-embed"
-  gem "jekyll-include-cache"
-  gem "jekyll-compose"
+     gem "jekyll-avatar"
+     gem "jekyll-default-layout"
+     gem "jekyll-feed"
+     gem "jekyll-gist"
+     gem "jekyll-pdf-embed"
+     gem "jekyll-optional-front-matter"
+     gem "jekyll-paginate"
+     gem "jekyll-readme-index"
+     gem "jekyll-redirect-from"
+     gem "jekyll-relative-links"
+     gem "jekyll-remote-theme"
+     gem "jekyll-include-cache"
+     gem "jekyll-compose"
+     gem "jekyll-seo-tag"
+     gem "jekyll-sitemap"
+     gem "jekyll-titles-from-headings"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 platforms :mingw, :x64_mingw, :mswin, :jruby do
-  gem "tzinfo", "~> 1.2"
+  gem "tzinfo"
   gem "tzinfo-data"
 end
 
