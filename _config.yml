@@ -3,40 +3,62 @@ title:              Trupesh Patel
 
 lang:               en
 copyright:          © 2021 Trupesh Patel. All free rights reserved.
-# accent_image:       /assets/img/sidebar-bg.jpg
-accent_image:       none
-accent_color:       rgb(79,177,186)
-theme_color:        rgb(0,55,71)
-author:
-     name:     Trupesh Patel
-     email:    pateltrupesh27@gmail.com
-     linkedin: trupeshkumarpatel
-     github:   trupeshkumarpatel
-     social:
-          googlescholar: rIGWIs8AAAAJ
-          linkedin:      trupeshkumarpatel
-          github:        trupeshkumarpatel
-          email:         pateltrupesh27@gmail.com
+accent_image:       /assets/img/slider-bg.png
+favicon:            /assets/icons/maskable_icon_x72.png
+apple_touch_icon:   /assets/img/profile.png
+logo:               /assets/img/profile.png
 
-description:   >- # this means to ignore newlines until "baseurl:"
+description:   > # this means to ignore newlines until "baseurl:"
      This is personal website of Trupesh Patel - Ph.D. Student in Computer Science at The University of Alabama
 
-tagline:       |
-     Ph.D. Student @The University of Alabama
+tagline:       >
+     Student. Researcher. Developer.
 
 baseurl:       "" # the subpath of your site, e.g. /blog
 url:           "https://trupeshkumarpatel.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
+author:
+     name:     Trupesh Patel
+     # Used at the bottom of each page and at the top of the `about` layout
+     # Markdown enabled, can use multiple paragraphs (enabled by `|`)
+     about:             |
+          This is personal website of Trupesh Patel - Ph.D. Student in Computer Science at The University of Alabama
+     email:    pateltrupesh27@gmail.com
+     picture:
+          path:     /assets/img/profile.jpg
+          srcset:
+               1x:  /assets/icons/maskable_icon_x512.png
+               2x:  /assets/icons/maskable_icon.png
+     linkedin: trupeshkumarpatel
+     github:   trupeshkumarpatel
+     social:
+          google:        rIGWIs8AAAAJ
+          linkedin:      trupeshkumarpatel
+          github:        trupeshkumarpatel
+          email:         pateltrupesh27@gmail.com
+
+menu:
+     - title:  About Me
+       url:    /about
+
+# ********************** SEO Tag **********************
+google-site-verification: TVr8L42hgL6O4PaVbT0p48h-UvmhkNLOd1xHgxNMnSY
+
 # # generate social links in footer
 social_links:
+     name:     <Trupesh> <Patel>
 # # twitter_username: jekyllrb
      github_username:  trupeshkumarpatel
      linkedin_username: trupeshkumarpatel
 
+# ********************** Theme **********************
 # Build settings
-# theme:         jekyll-theme-hydejack
+theme:         jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9.1.4
+
+# ********************** Plugins **********************
 plugins:
+     - jekyll-avatar
      - jekyll-default-layout
      - jekyll-feed
      - jekyll-pdf-embed
@@ -83,11 +105,11 @@ hydejack:
      hide_last_modified:     false
 
      dark_mode:
-          always:            false
-          dynamic:           true
+          always:            true
+          dynamic:           false
           sunrise:           6
           sunset:            18
-          icon:              true
+          icon:              false
 
      offline:
           enabled:           false
@@ -134,14 +156,14 @@ sass:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

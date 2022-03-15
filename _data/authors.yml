@@ -1,0 +1,19 @@
+author:
+     name:     Trupesh Patel
+     # Used at the bottom of each page and at the top of the `about` layout
+     # Markdown enabled, can use multiple paragraphs (enabled by `|`)
+     about:             |
+          This is personal website of Trupesh Patel - Ph.D. Student in Computer Science at The University of Alabama
+     email:    pateltrupesh27@gmail.com
+     picture:
+          path:     /assets/img/profile.png
+          srcset:
+               1x:  /assets/icons/maskable_icon_x512.png
+               2x:  /assets/icons/maskable_icon.png
+     linkedin: trupeshkumarpatel
+     github:   trupeshkumarpatel
+     social:
+          googlescholar:      rIGWIs8AAAAJ
+          linkedin:           trupeshkumarpatel
+          github:             trupeshkumarpatel
+          email:              pateltrupesh27@gmail.com
