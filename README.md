@@ -1,1 +1,0 @@
-# TrupeshKumarPatel.github.io
