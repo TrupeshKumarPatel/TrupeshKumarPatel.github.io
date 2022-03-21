@@ -4,9 +4,9 @@
 
 layout: base
 ---
-<center> <h2 class="h1" style="color: rgb(0,55,71)" id="about">Full website coming soon! </h2> </center>
+<center> <h2 class="h1" id="about">Full website coming soon! </h2> </center>
 
-<p style="color: rgb(0,55,71)" id="extra_text"> Meanwhile please visit my social media pages. </p>
+<p id="extra_text"> Meanwhile please visit my social media pages. </p>
 
 <div>
      <ul>
