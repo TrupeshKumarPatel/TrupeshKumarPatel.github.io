@@ -3,10 +3,10 @@ title:              Trupesh Patel
 
 lang:               en
 copyright:          © 2021 Trupesh Patel. All free rights reserved.
-accent_image:       /assets/img/slider-bg-2.jpeg
+accent_image:       /assets/img/slider-bg-2.webp
 favicon:            /assets/icons/maskable_icon_x72.png
-apple_touch_icon:   /assets/img/profile.png
-logo:               /assets/img/profile.png
+apple_touch_icon:   /assets/img/profile.webp
+logo:               /assets/img/profile.webp
 
 description:   > # this means to ignore newlines until "baseurl:"
      This is personal website of Trupesh Patel - Ph.D. Student in Computer Science at The University of Alabama
@@ -25,7 +25,7 @@ author:
           This is personal website of Trupesh Patel - Ph.D. Student in Computer Science at The University of Alabama
      email:    pateltrupesh27@gmail.com
      picture:
-          path:     /assets/img/profile.jpg
+          path:     /assets/img/profile.webp
           srcset:
                1x:  /assets/icons/maskable_icon_x512.png
                2x:  /assets/icons/maskable_icon.png
