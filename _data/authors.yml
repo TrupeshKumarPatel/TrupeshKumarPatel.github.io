@@ -6,8 +6,9 @@ author:
           This is personal website of Trupesh Patel - Ph.D. Student in Computer Science at The University of Alabama
      email:    pateltrupesh27@gmail.com
      picture:
-          path:     /assets/img/profile.png
+          path:     /assets/img/profile.webp
           srcset:
+               # 1x:  /assets/icons/imageedit_1_6522513265.png
                1x:  /assets/icons/maskable_icon_x512.png
                2x:  /assets/icons/maskable_icon.png
      linkedin: trupeshkumarpatel

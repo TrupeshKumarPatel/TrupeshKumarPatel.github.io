@@ -37,10 +37,14 @@ author:
           github:        trupeshkumarpatel
           email:         pateltrupesh27@gmail.com
 
+google_analytics: UA-259472192-1
+gtag: G-HY4RZL7PG9
+
 menu:
      - title:  About Me
        url:    /about
-
+     # - title:  Posts
+     #   url:    /post
 # ********************** SEO Tag **********************
 google-site-verification: TVr8L42hgL6O4PaVbT0p48h-UvmhkNLOd1xHgxNMnSY
 
